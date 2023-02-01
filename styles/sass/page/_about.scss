@@ -48,7 +48,6 @@
             top: -30px;
             width: 107%;
             height: 56%;
-            @include linear-gradient-bg( to left, $theme-primary-color-s2, darken($theme-primary-color-s2, 10%));
             content: "";
             z-index: -1;
         }

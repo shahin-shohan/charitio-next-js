@@ -43,7 +43,6 @@
                     top: -10px;
                     width: 199px;
                     height: 199px; 
-                    @include linear-gradient-bg( to left, transparentize($theme-primary-color-s2, 0.25), darken($theme-primary-color-s2, 9%));
                     z-index: -1;
                 }
                 .shp-2{
@@ -53,7 +52,6 @@
                     bottom: -10px;
                     width: 199px;
                     height: 199px; 
-                    @include linear-gradient-bg( to left, transparentize($theme-primary-color, 0.25), darken($theme-primary-color, 9%));
                 }
 
                 img{
