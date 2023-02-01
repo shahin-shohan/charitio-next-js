@@ -150,6 +150,7 @@
      }
 
     .wpo-cta-section{
+        @include linear-gradient-bg( to left,transparentize($theme-primary-color-s2, 0.25), darken($theme-primary-color-s2, 6%));
 
         .volunteer-img {
             bottom: -45px;

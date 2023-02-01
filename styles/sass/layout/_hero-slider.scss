@@ -165,6 +165,7 @@
 
 				.wpo-total-project{
                     padding:20px 30px;
+					@include linear-gradient-bg( to left,darken($theme-primary-color-s2, 32%), transparentize($theme-primary-color-s2, 0.15));
 					border-radius: 40px;
 					overflow: hidden;
 					position: relative;

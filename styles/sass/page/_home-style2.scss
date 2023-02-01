@@ -201,6 +201,7 @@
 
     .wpo-fun-fact-grids{
         padding:80px 100px;
+        @include linear-gradient-bg( to left,transparentize($theme-primary-color, 0.25), darken($theme-primary-color, 6%));
         z-index: 1;
         position: relative;
         border-radius: 20px;
@@ -455,6 +456,7 @@
                 width: 96%;
                 height: 96%;
                 content: "";
+                @include linear-gradient-bg( to left,transparentize($theme-primary-color, 0.35), darken($theme-primary-color, 6%));
                 opacity: 0;
                 transition: all .3s;
                 border-radius: 20px;
