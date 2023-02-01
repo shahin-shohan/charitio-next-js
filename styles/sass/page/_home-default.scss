@@ -1139,13 +1139,11 @@
                 position: absolute;
                 left: 20px;
                 top: 20px;
-                @include linear-gradient-bg( to left, $theme-primary-color, darken($theme-primary-color, 9%));
                 padding: 4px 20px;
                 border-radius: 4px;
                 color: $white;
             }
             .thumb-2{
-                @include linear-gradient-bg( to left, $theme-primary-color-s2, darken($theme-primary-color-s2, 9%));
             }
     }
 
